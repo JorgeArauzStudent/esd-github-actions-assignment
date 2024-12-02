@@ -12,5 +12,6 @@ jobs:
         steps: 
             - uses: actions/setup-python@v3
 
-            - run: python /assignments/exercise-2/main.py
+            - run: | 
+                python assignments/exercise-2/main.py
        
